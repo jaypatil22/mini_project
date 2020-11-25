@@ -8,7 +8,6 @@ nav a {
 .nav-toggler {
     background-color: white;
 }
-
 footer {
     margin-top: 40px;
 }
@@ -40,9 +39,11 @@ footer {
     /* top: 60px; */
     margin-bottom: 40px;
 }
-
-body, html {
+html {
     height: 100%;
+}
+body, html{
+    /* height: 100%; */
     display: flex;
     flex-direction: column;
 }
@@ -50,12 +51,4 @@ body, html {
 .text {
     font-size: 5.5em;
     color: white;
-}
-
-@media screen and (max-height:620px) {
-    html, body {
-        height:0%;
-        display: flex;
-        flex-direction: column;
-    }
 }
